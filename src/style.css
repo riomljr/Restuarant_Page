@@ -1,0 +1,44 @@
+body {
+  
+  background: url('./catpaws.jpg');
+  
+  
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+ 
+  border-radius: 40%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+p {
+align-self: center;
+border-style: solid;
+border-radius: 30px;
+border-width: 10px;
+max-width: 40%;
+padding: 5%;
+
+background-color: antiquewhite;
+text-align: center;
+}
+
+
+#content {
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
