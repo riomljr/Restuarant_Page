@@ -1,7 +1,12 @@
 let reset = () => {
-  let content = document.getElementById('content');
-  let container = document.getElementsByClassName('container')[0];
-  container.remove();
+
+  const content = document.getElementById('content');
+  
+  
+  while (content.lastChild.id !== 'navigation') {
+    content.removeChild(content.lastChild);
+  }
+ 
   content.className="";
 
 }

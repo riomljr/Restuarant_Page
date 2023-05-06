@@ -1,5 +1,7 @@
 let nav = () => {
+  const mainContain = document.getElementById('content');
   let nav = document.createElement('nav');
+  nav.id = 'navigation';
   
   let home = document.createElement('button');
   home.innerHTML = 'Home';
@@ -14,8 +16,10 @@ let nav = () => {
   about.id = 'about';
 
   nav.appendChild(home);
-  nav.appendChild(about);
   nav.appendChild(menu);
+  nav.appendChild(about);
+
+  mainContain.appendChild(nav);
 
   return nav
 }
