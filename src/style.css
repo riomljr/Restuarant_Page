@@ -23,7 +23,7 @@ button {
   padding: 10px;
 }
 
-p {
+.innerContent {
 align-self: center;
 border-style: solid;
 border-radius: 30px;
@@ -36,7 +36,13 @@ text-align: center;
 }
 
 
-#content {
+.home {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu {
   display: flex;
   flex-direction: column;
   

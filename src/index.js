@@ -24,3 +24,10 @@ document.getElementById('Menu').addEventListener('click', () => {
   menu();
  
 });
+
+document.getElementById('about').addEventListener('click', () => {
+  console.log("about working");
+  reset();
+  menu();
+ 
+});
