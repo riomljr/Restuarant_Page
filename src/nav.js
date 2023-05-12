@@ -9,7 +9,7 @@ let nav = () => {
 
   let menu = document.createElement('button');
   menu.innerHTML = 'Menu';
-  menu.id = 'Menu';
+  menu.id = 'menu';
 
   let about = document.createElement('button');
   about.innerHTML = 'about';

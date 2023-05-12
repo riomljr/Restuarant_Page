@@ -12,13 +12,13 @@ home();
 
 
 document.getElementById('home').addEventListener('click', () => {
-  console.log("home working");
   reset();
   home();
   
+  
 });
 
-document.getElementById('Menu').addEventListener('click', () => {
+document.getElementById('menu').addEventListener('click', () => {
   console.log("Menu working");
   reset();
   menu();

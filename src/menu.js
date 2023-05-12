@@ -1,6 +1,9 @@
 let menu = () => {
   const content = document.getElementById('content');
-  content.classList.add('home');
+  content.classList.add('menu');
+
+  let btn = document.getElementById('menu');
+  btn.classList.add('clicked')
 
   const container = document.createElement('div');
   container.classList.add('container');
