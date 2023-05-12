@@ -11,10 +11,10 @@ let menu = () => {
   header.appendChild(headline);
   container.appendChild(header);
 
-  const first = document.createElement('div')
+  const first = document.createElement('p');
   first.classList.add('innerContent');
 
-  const firstH = document.createElement('h2')
+  const firstH = document.createElement('h2');
   const firstP = document.createElement('p');
 
   firstH.innerHTML = "Fish Fillet"
@@ -22,7 +22,7 @@ let menu = () => {
   first.appendChild(firstH);
   first.appendChild(firstP);
 
-  const second = document.createElement('div');
+  const second = document.createElement('p');
   second.classList.add('innerContent');
   
   const secondH = document.createElement('h2')
@@ -33,7 +33,7 @@ let menu = () => {
   second.appendChild(secondH); 
   second.appendChild(secondP);
 
-  const third = document.createElement('div');
+  const third = document.createElement('p');
   third.classList.add('innerContent');
   
   const thirdH = document.createElement('h2')

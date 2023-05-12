@@ -28,6 +28,6 @@ document.getElementById('Menu').addEventListener('click', () => {
 document.getElementById('about').addEventListener('click', () => {
   console.log("about working");
   reset();
-  menu();
+  about();
  
 });

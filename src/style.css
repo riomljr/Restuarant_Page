@@ -45,5 +45,13 @@ text-align: center;
 .menu {
   display: flex;
   flex-direction: column;
+ 
   
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+
+}
+

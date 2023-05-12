@@ -1,26 +1,31 @@
 let about = () => {
   const content = document.getElementById('content');
-  content.classList.add('home');
+  content.classList.add('about');
 
   const container = document.createElement('div');
   container.classList.add('container');
   const header = document.createElement('header');
   const headline = document.createElement('h1');
-  headline.innerHTML = 'Menu';
+  headline.innerHTML = 'About Us';
 
   header.appendChild(headline);
   container.appendChild(header);
 
-  const first = document.createElement('div')
+  const first = document.createElement('p');
   first.classList.add('innerContent');
 
-  const firstH = document.createElement('h2')
+  const firstH = document.createElement('h2');
   const firstP = document.createElement('p');
+  const firstPic = document.createElement('img');
 
-  firstH.innerHTML = "Fish Fillet"
-  firstP.innerHTML = "Delicious Catch of the Day" + "<br>"+ "Salmon or Cod";
+
+  firstH.innerHTML = "Finnegan";
+  firstP.innerHTML = "Our cafe is name after one of the most handsomest cats" ;
   first.appendChild(firstH);
   first.appendChild(firstP);
+
+
+  
 
   const second = document.createElement('div');
   second.classList.add('innerContent');
@@ -28,26 +33,15 @@ let about = () => {
   const secondH = document.createElement('h2')
   const secondP = document.createElement('p');
 
-  secondH.innerHTML = "Meat Mousse"
-  secondP.innerHTML = "Order a Can of our high quiality meat patte with added moisture." + "<br>" + "Made from the grass feed free range beef.";
+  secondH.innerHTML = "Contact Us"
+  secondP.innerHTML = "Email: Finnegan@Finnengansmadeupcafe.com" + "<br>" + "Phone: 555-5555";
   second.appendChild(secondH); 
   second.appendChild(secondP);
-
-  const third = document.createElement('div');
-  third.classList.add('innerContent');
-  
-  const thirdH = document.createElement('h2')
-  const thirdP = document.createElement('p');
-
-  thirdH.innerHTML = "Snack of the Day"
-  thirdP.innerHTML = "Ranges from Valerian root Catnip to tasty chicken bites";
-  third.appendChild(thirdH);
-  third.appendChild(thirdP);
 
   content.appendChild(container);
   content.appendChild(first);
   content.appendChild(second);
-  content.appendChild(third);
+  
     
 }
 
