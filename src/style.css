@@ -15,16 +15,26 @@ h1 {
   text-align: center;
 }
 
-button {
- 
+.content {
   background-color: antiquewhite;
 
-  padding: 10px;
 }
 
+button {
+  border-color:black;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 2%;
+  font-weight: 900;
+
+}
+
+
+
 .clicked {
- 
-  opacity: 0.5;
+  border: none;
+  opacity: 90%;
+  
 }
 
 .innerContent {

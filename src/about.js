@@ -2,6 +2,9 @@ let about = () => {
   const content = document.getElementById('content');
   content.classList.add('about');
 
+  let btn = document.getElementById('about');
+  btn.classList.add('clicked')
+
   const container = document.createElement('div');
   container.classList.add('container');
   const header = document.createElement('header');

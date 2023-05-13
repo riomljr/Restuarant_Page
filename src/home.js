@@ -2,6 +2,9 @@ let home = () => {
   const content = document.getElementById('content');
   content.classList.add('home');
 
+  let btn = document.getElementById('home');
+  btn.classList.add('clicked')
+
   const container = document.createElement('div');
   container.classList.add('container');
   const header = document.createElement('header');

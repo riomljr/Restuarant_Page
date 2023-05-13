@@ -12,7 +12,7 @@ let nav = () => {
   menu.id = 'menu';
 
   let about = document.createElement('button');
-  about.innerHTML = 'about';
+  about.innerHTML = 'About';
   about.id = 'about';
 
   nav.appendChild(home);
