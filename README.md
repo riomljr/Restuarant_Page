@@ -4,7 +4,7 @@ Live Preview https://riomljr.github.io/Restuarant_Page/
 
 Using:
 
-Webpack: imports, webpack-dev-server
+Webpack: imports, webpack-dev-server \n
 NPM: package installation, scripts
 ES6 modules organization
 DOM manipulation
